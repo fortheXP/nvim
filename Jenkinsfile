@@ -6,7 +6,7 @@ pipeline {
       steps {
                 script {
                   // reading a file
-                  bash cat 'init.lua' 
+                  sh 'cat init.lua' 
                 }
       }
     }
